@@ -1,0 +1,227 @@
+<head>
+    <title>UPDATE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid"><br>
+        <div class="abs" style="text-align: center;font-size: 0.8cm;">ABSENTEES RECORD AND INTIMATION </div>
+
+        <div class="home" style="word-spacing:10px;color:white;font-size: 20px;">
+
+            <ul class="nav  justify-content-center nav-tabs" style="gap: 5rem;" >
+                <li class="nav-item ">
+                    <a class="nav-link " href="./home-2-bs.html" style="color: #E3E2DF;">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"style="color: #E3E2DF;" >DASHBOARD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./update-3-bs.html" style="color: #E3E2DF;">UPDATE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #E3E2DF;">HELP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #E3E2DF;">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./intimation-4-bs.html" style="color: #E3E2DF;">INTIMATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login-1-bs.html" style="color: #E3E2DF;">LOGIN</a>
+                </li>
+            </ul>
+        </div>  
+        <div class="mainbox">
+            <div class="main">
+                <div class="branch"><br>
+                    <p>PROGRAM  </p>
+                        <select name="program" id="">
+                            <option value="">B.E</option>
+                            <OPtion>B.Tech</OPtion>
+                            <option value="Msc">Msc</option>
+                            <option value="Bsc">BSC</option>
+                            <option value="MBA">MBA</option>
+                        </select>
+        <br><br>
+                    <p>DEPARTMENT </p>
+                        <select>
+                            <option value="">CSE</option>
+                            <option value="">IT</option>
+                            <option value="">AI&DS</option>
+                            <option value="">AI&ML</option>
+                            <option value="">ECE</option>
+                            <option value="">EEE</option>
+                            <option value="">CSD</option>
+                            <option value="">MECHANICAL</option>
+                            <option value="">CIVIL</option>
+                            <option value="">CHEMICAL</option>
+                            <option value="">FOOD TECH</option>
+                        </select>
+        <br><br>
+                    <p>BATCH  </p>
+                        <select>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                            <option value="">2030</option>
+                        </select>
+        <br><br>
+                    <p>SECTION      </p>
+                        <select name="section" id="">
+                            <option value="">A</option>
+                            <option value="">B</option>
+                            <option value="">C</option>
+                            <option value="">D</option>
+                            <option value="">NULL</option>
+                        </select>
+        <br><br>
+                    <p>DATE </p>
+                        <input type="date">
+        <br><br>
+                    <p>ABSENTIES ROLL NUMBER  </p>
+                        <input type="text" placeholder="Roll No">
+        <br><br>
+                    <p>SESSION</p>    
+                        <input  type="checkbox">
+                        <p class="in">A.N</p>
+                        <input type="checkbox">
+                        <p class="an">F.N</p>
+        <br><br>
+                    <input type="Submit" class="sub" value="SUBMIT">  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .container{
+        background-image: url("imstudipus/image11.jfif");
+   
+    }
+    .home{
+        border: 2px solid black;
+        /* box-shadow: 0 0 8px #EE4C7C inset; */
+        margin: 5px;
+        width: auto;
+        height: 1.4cm;
+        align-content: end;
+        background-color: #9A1765;
+    }
+    .abs{
+        border: 3px solid black;
+        margin: 5px;
+        width: auto;
+        height: 2cm;
+        padding-top: 6px;
+        text-align: center;
+        background-color: #E3E2DF;
+        /* text-shadow: 1px 1px 2px rgb(255, 3, 3),0 0 25px rgb(240, 100, 124),0 0 5px rgb(248, 241, 241); */
+    }
+    /* .clr{
+        color: #9A1750;
+    } */
+    /* .outer{
+        border: 3px solid black;
+        margin: 2px;
+        height: 29.32cm;
+        width: 32.5cm;
+        background-color:#730a2bda;
+    }
+    .kecimg{
+        border-style: outset;
+        height: 2.4cm;
+        width: 2.4cm;
+        margin: 20px;
+        margin-left: 70px;
+    }
+    .kec{
+        height: 2.4cm;
+        width: 27cm;
+        margin: 40px;
+        text-shadow: -1px 0px black,0px 1px black,1px 0px black,0px -1px black;
+    }
+    .kecbox{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid black;
+        margin: 5px;
+        width: 32.1cm;
+        height: 3.5cm;
+        background-color: #9A1750;
+        box-shadow: 0 0 25px #25000c inset;
+    } */
+    .mainbox{
+        margin: 5px;
+        border: 4px double black;
+        height: auto;
+        width: auto;
+        background-color: #E3E2DF;
+        height: fit-content;
+       
+    }
+    *{
+        border-radius: 5px;
+    }
+    .para{
+        margin-left: 50;
+    }
+    p{
+        text-align: left;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20;
+       
+    }
+    .href :hover{display: block;}
+    .href{
+        padding-left: 70px;
+        text-decoration: underline;
+        color: #E3E2DF;
+        font-size: 0.6cm;
+    }
+    h3{
+        color: black;
+    }
+    .branch{
+        padding-left: 5%;
+       
+    }
+    .main{
+        border: 3px solid;
+        width: 50%;
+        height: 85%;
+        background-position: center;
+        border: none;
+    }
+    .sub{
+        border-radius: 8px;
+        color :#E3E2DF;
+        background-color: #9A1750;
+        border: none;
+        cursor: pointer;
+        margin-left: 250;
+        height: 40;
+        width: 100;
+        margin-top: -80px;
+    }
+    a{
+        color: white;
+        font-family:url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+    }
+    .in{
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+    .an{
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+</style>
